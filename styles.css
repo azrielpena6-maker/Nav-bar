@@ -1,3 +1,33 @@
-body{
-    background-color: rgb(65, 65, 233);
+:root{
+  --bg: #ffffff;
+  --text: #000;
+  --card: #f4f4f4;
+}
+
+.dark{
+    --bg: #121212;
+    --text: #fff;
+    --card: #1e1e1e;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    padding: 15px 0;
+    gap: 20px; /* Adds space between the navbar options*/
+    background: #333;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    margin-right: 15px;
 }
