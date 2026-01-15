@@ -22,7 +22,7 @@ body {
     justify-content: space-between; /* Centers items horizontally */
     align-items: center; /* Centers items vertically */
     padding: 15px 0;
-    gap: 20px; /* Adds space between the navbar options*/
+    gap: 20px; /* Adds space between the navbar options */
     background: #333;
     color: white;
 }
